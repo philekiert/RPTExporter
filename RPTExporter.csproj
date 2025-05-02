@@ -171,7 +171,6 @@
     <None Include="RPT Exporter.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="RPTExporter_TemporaryKey.pfx" />
     <Resource Include="Resources\Fonts\Roboto Mono\RobotoMono-Italic.ttf" />
     <Resource Include="Resources\Fonts\Roboto Mono\RobotoMono.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
