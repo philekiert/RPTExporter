@@ -13,7 +13,7 @@ password on export**. The username for the database connection *must* be set in 
 RPT Exporter *may* violate SAP's terms of use by exceeding their definition of 'viewing' the file (their terms are quite
 vague in this regard).
 
-### Important Notes on Licensing
+## Important Notes on Licensing
 
 The Crystal Reports designer requires a separate licence for each installed copy. The Crystal Reports runtime, however, is
 licence-free, so long as it is not used to edit or otherwise manipulate the RPT files it works with. RPT Exporter has been
