@@ -24,7 +24,8 @@ Note that the MIT licence only applies to the code in this repository, and does 
 
 ## Build
 
-You will need to install Crystal Report's for Visual Studio in order to compile the application. The project already contains
+You will need to install Crystal Report's for Visual Studio in order to compile the application. During installation,
+select the option to install the 32 bit runtime, necessary for this library in Visual Studio. The project already contains
 the needed references, so you should be good to go once this is carried out. Note that to use Crystal Reports, the
 application uses .NET 4.8 (included in Windows 11).
 
