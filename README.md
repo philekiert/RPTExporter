@@ -24,8 +24,9 @@ Note that the MIT licence only applies to the code in this repository, and does 
 
 ## Build
 
-You will need to install Crystal Report's .NET runtime in order to compile the application. The project already contains the
-needed references, so you should be good to go once this is carried out.
+You will need to install Crystal Report's for Visual Studio in order to compile the application. The project already contains
+the needed references, so you should be good to go once this is carried out. Note that to use Crystal Reports, the
+application uses .NET 4.8 (included in Windows 11).
 
 Once that's done, simply clone the repository - it should build successfully right off the bat. In order to export files
 from the application, you will need to download Crystal reports' .NET runtime from their website.
