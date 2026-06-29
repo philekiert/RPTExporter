@@ -179,88 +179,29 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\01ZoomOut.png">
-      <Link>Resources\Icons\01ZoomOut.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\02ZoomIn.png">
-      <Link>Resources\Icons\02ZoomIn.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\03Minus.png">
-      <Link>Resources\Icons\03Minus.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\04Plus.png">
-      <Link>Resources\Icons\04Plus.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\05Forward1.png">
-      <Link>Resources\Icons\05Forward1.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\06Forward2.png">
-      <Link>Resources\Icons\06Forward2.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\07Forward3.png">
-      <Link>Resources\Icons\07Forward3.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\08Backward1.png">
-      <Link>Resources\Icons\08Backward1.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\09Backward2.png">
-      <Link>Resources\Icons\09Backward2.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\10Backward3.png">
-      <Link>Resources\Icons\10Backward3.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\11Date.png">
-      <Link>Resources\Icons\11Date.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\12Today.png">
-      <Link>Resources\Icons\12Today.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\13Save.png">
-      <Link>Resources\Icons\13Save.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\14SaveAs.png">
-      <Link>Resources\Icons\14SaveAs.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\15AddCode.png">
-      <Link>Resources\Icons\15AddCode.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\16Duplicate.png">
-      <Link>Resources\Icons\16Duplicate.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\17Delete.png">
-      <Link>Resources\Icons\17Delete.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\BridgeManager.ico">
-      <Link>Resources\Icons\BridgeManager.ico</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\x20TitleBarIcon.png">
-      <Link>Resources\Icons\x20TitleBarIcon.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="..\BridgeOps\BridgeOpsClient\Resources\Icons\x20TitleBarIconDark.png">
-      <Link>Resources\Icons\x20TitleBarIconDark.png</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
     <Content Include="BridgeManager.ico" />
     <Content Include="Resources\Fonts\Roboto Mono\LICENSE.txt" />
+    <Content Include="Resources\Icons\01ZoomOut.png" />
+    <Content Include="Resources\Icons\02ZoomIn.png" />
+    <Content Include="Resources\Icons\03Minus.png" />
+    <Content Include="Resources\Icons\04Plus.png" />
+    <Content Include="Resources\Icons\05Forward1.png" />
+    <Content Include="Resources\Icons\06Forward2.png" />
+    <Content Include="Resources\Icons\07Forward3.png" />
+    <Content Include="Resources\Icons\08Backward1.png" />
+    <Content Include="Resources\Icons\09Backward2.png" />
+    <Content Include="Resources\Icons\10Backward3.png" />
+    <Content Include="Resources\Icons\11Date.png" />
+    <Content Include="Resources\Icons\12Today.png" />
+    <Content Include="Resources\Icons\13Save.png" />
+    <Content Include="Resources\Icons\14SaveAs.png" />
+    <Content Include="Resources\Icons\15AddCode.png" />
+    <Content Include="Resources\Icons\16Duplicate.png" />
+    <Content Include="Resources\Icons\17Delete.png" />
+    <Content Include="Resources\Icons\18Resources.png" />
+    <Content Include="Resources\Icons\BridgeManager.ico" />
+    <Content Include="Resources\Icons\x20TitleBarIcon.png" />
+    <Content Include="Resources\Icons\x20TitleBarIconDark.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
