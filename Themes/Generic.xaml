@@ -1,0 +1,317 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Window -->
+    <Color x:Key="colorTitleBar">#dcdfe5</Color>
+    <Color x:Key="colorTitleBarBorder">#bbb</Color>
+    <Color x:Key="colorTitleBarForeGround">#000</Color>
+    <Color x:Key="colorMinimise">#d3d5d8</Color>
+    <Color x:Key="colorMinimiseButton">#556383</Color>
+    <Color x:Key="colorMaximise">#c9cbce</Color>
+    <Color x:Key="colorMaximiseButton">#556383</Color>
+    <Color x:Key="colorClose">#e0e2e8</Color>
+    <Color x:Key="colorCloseButton">#f54e80</Color>
+    <Color x:Key="colorWindowBorder">#AAAAAA</Color>
+    <!--<Color x:Key="colorTitleBar">#3B4557</Color>
+    <Color x:Key="colorTitleBarBorder">#24282F</Color>
+    <Color x:Key="colorTitleBarForeGround">#eee</Color>
+    <Color x:Key="colorMinimise">#30394C</Color>
+    <Color x:Key="colorMinimiseButton">#bfc7d0</Color>
+    <Color x:Key="colorMaximise">#2B323e</Color>
+    <Color x:Key="colorMaximiseButton">#bfc7d0</Color>
+    <Color x:Key="colorClose">#3B4557</Color>
+    <Color x:Key="colorCloseButton">#ff5f9c</Color>
+    <Color x:Key="colorWindowBorder">#24282F</Color>-->
+    <SolidColorBrush x:Key="brushTitleBar" Color="{StaticResource colorTitleBar}"/>
+    <SolidColorBrush x:Key="brushTitleBarBorder" Color="{StaticResource colorTitleBarBorder}"/>
+    <SolidColorBrush x:Key="brushTitleBarForeground" Color="{StaticResource colorTitleBarForeGround}"/>
+    <SolidColorBrush x:Key="brushMinimise" Color="{StaticResource colorMinimise}"/>
+    <SolidColorBrush x:Key="brushMinimiseButton" Color="{StaticResource colorMinimiseButton}"/>
+    <SolidColorBrush x:Key="brushMaximise" Color="{StaticResource colorMaximise}"/>
+    <SolidColorBrush x:Key="brushMaximiseButton" Color="{StaticResource colorMaximiseButton}"/>
+    <SolidColorBrush x:Key="brushClose" Color="{StaticResource colorClose}"/>
+    <SolidColorBrush x:Key="brushCloseButton" Color="{StaticResource colorCloseButton}"/>
+    <SolidColorBrush x:Key="brushWindowBorder" Color="{StaticResource colorWindowBorder}"/>
+
+    <!-- Components -->
+    <Color x:Key="colorMenuBar">#fff</Color>
+    <Color x:Key="colorPrimaryButton">#556383</Color>
+    <Color x:Key="colorPrimaryButtonBorder">#000</Color>
+    <Color x:Key="colorPrimaryButtonHover">#569cd6</Color>
+    <Color x:Key="colorPrimaryButtonHoverBorder">#333</Color>
+    <Color x:Key="colorAddButton">#3debac</Color>
+    <Color x:Key="colorAddButtonBorder">#4a8a81</Color>
+    <Color x:Key="colorRemoveButton">#ff6996</Color>
+    <Color x:Key="colorRemoveButtonBorder">#ab5073</Color>
+    <Color x:Key="colorNeutralButton">#D1F0FF</Color>
+    <Color x:Key="colorNeutralButtonBorder">#4495BB</Color>
+    <Color x:Key="colorButton">#eee</Color>
+    <Color x:Key="colorButtonBorder">#aaa</Color>
+    <Color x:Key="colorNegativeBackground">#F45</Color>
+    <Color x:Key="colorDerynsPurpleBar">#7d579c</Color>
+    <Color x:Key="colorDerynsPurpleBarBorder">#5d4270</Color>
+    <Color x:Key="colorStatusBar">#edeeef</Color>
+    <Color x:Key="colorStatusBarBorder">#ccc</Color>
+    <SolidColorBrush x:Key="brushMenuBar" Color="{StaticResource colorMenuBar}"/>
+    <SolidColorBrush x:Key="brushPrimaryButton" Color="{StaticResource colorPrimaryButton}"/>
+    <SolidColorBrush x:Key="brushPrimaryButtonBorder" Color="{StaticResource colorPrimaryButtonBorder}"/>
+    <SolidColorBrush x:Key="brushPrimaryButtonHover" Color="{StaticResource colorPrimaryButtonHover}"/>
+    <SolidColorBrush x:Key="brushPrimaryButtonHoverBorder" Color="{StaticResource colorPrimaryButtonHoverBorder}"/>
+    <SolidColorBrush x:Key="brushAddButton" Color="{StaticResource colorAddButton}"/>
+    <SolidColorBrush x:Key="brushAddButtonBorder" Color="{StaticResource colorAddButtonBorder}"/>
+    <SolidColorBrush x:Key="brushRemoveButton" Color="{StaticResource colorRemoveButton}"/>
+    <SolidColorBrush x:Key="brushRemoveButtonBorder" Color="{StaticResource colorRemoveButtonBorder}"/>
+    <SolidColorBrush x:Key="brushNeutralButton" Color="{StaticResource colorNeutralButton}"/>
+    <SolidColorBrush x:Key="brushNeutralButtonBorder" Color="{StaticResource colorNeutralButtonBorder}"/>
+    <SolidColorBrush x:Key="brushButton" Color="{StaticResource colorButton}"/>
+    <SolidColorBrush x:Key="brushButtonBorder" Color="{StaticResource colorButtonBorder}"/>
+    <SolidColorBrush x:Key="brushNegativeBackground" Color="{StaticResource colorNegativeBackground}"/>
+    <SolidColorBrush x:Key="brushDerynsPurpleBar" Color="{StaticResource colorDerynsPurpleBar}"/>
+    <SolidColorBrush x:Key="brushDerynsPurpleBarBorder" Color="{StaticResource colorDerynsPurpleBarBorder}"/>
+    <SolidColorBrush x:Key="brushStatusBar" Color="{StaticResource colorStatusBar}"/>
+    <SolidColorBrush x:Key="brushStatusBarBorder" Color="{StaticResource colorStatusBarBorder}"/>
+
+    <!-- Conferencing -->
+    <Color x:Key="colorBackgroundSchedule">#f0f0f0</Color>
+    <Color x:Key="colorConference">#86AEEA</Color>
+    <Color x:Key="colorConferenceCancelled">#DC57B4</Color>
+    <Color x:Key="colorConferenceTest">#484b6a</Color>
+    <Color x:Key="colorConferenceEnded">#8BD469</Color>
+    <Color x:Key="colorConferenceFailed">#DC5774</Color>
+    <Color x:Key="colorConferenceDegraded">#DE9666</Color>
+    <Color x:Key="colorConferenceNoShow">#99A</Color>
+    <Color x:Key="colorConferenceCheck">#32646464</Color>
+    <Color x:Key="colorConferenceWarning">#32C04155</Color>
+    <Color x:Key="colorConferenceWeekend">#dddedf</Color>
+    <Color x:Key="colorConferenceBankHoliday">#ccebde</Color>
+    <SolidColorBrush x:Key="brushBackgroundSchedule" Color="{StaticResource colorBackgroundSchedule}"/>
+    <SolidColorBrush x:Key="brushConference" Color="{StaticResource colorConference}"/>
+    <SolidColorBrush x:Key="brushConferenceCancelled" Color="{StaticResource colorConference}"/>
+    <SolidColorBrush x:Key="brushConferenceTest" Color="{StaticResource colorConferenceTest}"/>
+    <SolidColorBrush x:Key="brushConferenceEnded" Color="{StaticResource colorConferenceEnded}"/>
+    <SolidColorBrush x:Key="brushConferenceFailed" Color="{StaticResource colorConferenceFailed}"/>
+    <SolidColorBrush x:Key="brushConferenceDegraded" Color="{StaticResource colorConferenceDegraded}"/>
+    <SolidColorBrush x:Key="brushConferenceNoShow" Color="{StaticResource colorConferenceNoShow}"/>
+    <SolidColorBrush x:Key="brushConferenceCheck" Color="{StaticResource colorConferenceCheck}"/>
+    <SolidColorBrush x:Key="brushConferenceWarning" Color="{StaticResource colorConferenceWarning}"/>
+    <SolidColorBrush x:Key="brushConferenceWeekend" Color="{StaticResource colorConferenceWeekend}"/>
+    <SolidColorBrush x:Key="brushConferenceBankHoliday" Color="{StaticResource colorConferenceBankHoliday}"/>
+
+    <!-- This isn't theme stuff, and should be moved to App.xaml. Need to figure out how to make it less verbose -->
+
+    <Style TargetType="Button" x:Key="primary-button">
+        <Setter Property="Background" Value="{StaticResource brushPrimaryButton}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource brushPrimaryButtonBorder}"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="TextOptions.TextRenderingMode" Value="Aliased"/>
+        <Setter Property="Height" Value="24"/>
+        <Setter Property="Padding" Value="6 0 6 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1"
+                            Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"
+                                          Content="{TemplateBinding Content}"
+                                          ContentTemplate="{TemplateBinding ContentTemplate}"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource brushPrimaryButtonHover}"/>
+                            <Setter Property="BorderBrush" Value="{StaticResource brushPrimaryButtonHoverBorder}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value=".5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="toolbar-button">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Padding" Value="0 0 0 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1"
+                            Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                      VerticalAlignment="Center"
+                                      Content="{TemplateBinding Content}"
+                                      ContentTemplate="{TemplateBinding ContentTemplate}"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource brushButton}"/>
+                            <Setter Property="BorderBrush" Value="{StaticResource brushButtonBorder}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value=".5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="plus-button">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Padding" Value=".5 .5 0 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1">
+                        <Grid>
+                            <Path Data="M5,10 L10,10 L10,5 L13,5 L13,10 L18,10
+                                        L18,13 L13,13 L13,18 L10,18 L10,13 L5,13 Z"
+                                  Fill="{StaticResource brushAddButton}"
+                                  Stroke="{StaticResource brushAddButtonBorder}"
+                                  StrokeThickness="1">
+                                <Path.RenderTransform>
+                                    <TranslateTransform X="-.5" Y="-.5"/>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource brushButton}"/>
+                            <Setter Property="BorderBrush" Value="{StaticResource brushButtonBorder}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value=".5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="Button" x:Key="minus-button">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Padding" Value=".5 .5 0 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1">
+                        <Grid>
+                            <Path x:Name="path" Data="M5,10 L18,10 L18,13 L5,13 Z"
+                                  Fill="{StaticResource brushButton}"
+                                  Stroke="{StaticResource brushButtonBorder}"
+                                  StrokeThickness="1">
+                                <Path.RenderTransform>
+                                    <TranslateTransform X="-.5" Y="-.5"/>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource brushButton}"/>
+                            <Setter Property="BorderBrush" Value="{StaticResource brushButtonBorder}"/>
+                            <Setter TargetName="path" Property="Fill"
+                                    Value="{StaticResource brushRemoveButton}"/>
+                            <Setter TargetName="path" Property="Stroke"
+                                    Value="{StaticResource brushRemoveButtonBorder}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value=".3"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="Button" x:Key="back-button">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Padding" Value=".5 .5 0 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1" Opacity=".7">
+                        <Grid>
+                            <Path x:Name="path" Data="M6,12 L16,7 L16,17 Z"
+                                  Fill="{StaticResource brushPrimaryButton}"
+                                  Stroke="{StaticResource brushPrimaryButtonBorder}"
+                                  StrokeThickness="1">
+                                <Path.RenderTransform>
+                                    <TranslateTransform X="-.5" Y="-.5"/>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource brushButton}"/>
+                            <Setter Property="BorderBrush" Value="{StaticResource brushButtonBorder}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value=".3"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="Button" x:Key="forward-button">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Padding" Value=".5 .5 0 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1" Opacity=".7">
+                        <Grid>
+                            <Path x:Name="path" Data="M17,12 L7,7 L7,17 Z"
+                                  Fill="{StaticResource brushPrimaryButton}"
+                                  Stroke="{StaticResource brushPrimaryButtonBorder}"
+                                  StrokeThickness="1">
+                                <Path.RenderTransform>
+                                    <TranslateTransform X="-.5" Y="-.5"/>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource brushButton}"/>
+                            <Setter Property="BorderBrush" Value="{StaticResource brushButtonBorder}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value=".3"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
